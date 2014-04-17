@@ -1,27 +1,16 @@
 {
-  "name": "fluid-slider",
+  "name": "jonykrause-fluid-slider",
+  "description": "fluid slider",
   "version": "1.0.0",
-  "description": "Percentage-based Slider component built around the [Swipe Component](https://github.com/component/swipe). Useful for responsive projects because of configurable breakpoints/slides. Be sure to check out the [demo](http://jonykrause.github.io/fluid-slider/).",
+  "keywords": [],
   "main": "index.js",
-  "directories": {
-    "example": "example",
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "styles": [
+    "fluid-slider.css"
+  ],
   "dependencies": {
-    "translate": "git+ssh://git@github.com:jonykrause/translate.git#flexible-unit",
-    "swipe": "git+ssh://git@github.com:jonykrause/swipe.git#update/translate/swipe-items"
+    "component-events": "git://github.com/npmcomponent/component-events.git",
+    "jonykrause-translate": "git://github.com/npmcomponent/jonykrause-translate.git",
+    "jonykrause-swipe": "git://github.com/npmcomponent/jonykrause-swipe.git"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jonykrause/fluid-slider.git"
-  },
-  "author": "Jonathan Krause <jony@jonathan-krause.de> (http://jonykrau.se/)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jonykrause/fluid-slider/issues"
-  },
-  "homepage": "https://github.com/jonykrause/fluid-slider"
+  "license": "MIT"
 }

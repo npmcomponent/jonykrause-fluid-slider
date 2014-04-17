@@ -3,8 +3,8 @@
  * Module dependencies.
  */
 
-var swipe = require('swipe');
-var events = require('events');
+var swipe = require('jonykrause-swipe');
+var events = require('component-events');
 /**
  * Expose `FluidSlider`.
  */
